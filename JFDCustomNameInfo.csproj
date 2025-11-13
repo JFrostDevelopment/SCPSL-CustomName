@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Library</OutputType>
+    <AssemblyName>JFDCustomNameInfo</AssemblyName>
+    <RootNamespace>JFDCustomNameInfo</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+  <!-- Note: this project expects you to reference Exiled assemblies (Exiled.API.dll / Exiled.Events.dll)
+       via hint paths. The following references point to the Exiled/Assembly-CSharp DLLs I found in your Documents folder.
+       If these paths are not correct on your machine, update the HintPath entries accordingly. -->
+  <ItemGroup>
+    <Reference Include="Exiled.API">
+      <HintPath>C:\Users\faded\Documents\Site - 19 Plugins\JFDKeycardInfoProject\libs\Exiled.API.dll</HintPath>
+    </Reference>
+    <Reference Include="Exiled.Events">
+      <HintPath>C:\Users\faded\Documents\Site - 19 Plugins\JFDKeycardInfoProject\libs\Exiled.Events.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>C:\Users\faded\Documents\Site - 19 Plugins\JFDKeycardInfoProject\libs\Assembly-CSharp.dll</HintPath>
+    </Reference>
+      <Reference Include="UnityEngine.CoreModule">
+        <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+    <Reference Include="LabApi">
+      <HintPath>$(ProjectDir)bin\Release\net48\LabApi.dll</HintPath>
+    </Reference>
+    <Reference Include="CommandSystem.Core">
+      <HintPath>$(ProjectDir)bin\Release\net48\CommandSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Mirror">
+      <HintPath>$(ProjectDir)bin\Release\net48\Mirror.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
