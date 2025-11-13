@@ -26,4 +26,4 @@ Disclaimer
 -----------
 This is my first plugin, so please bare with me when it comes to updating
 
-If bugs to come ip, Feel free to reach out to me via Discord @ JFrost_Development
+If any bugs to come up, Feel free to reach out to me via Discord @ JFrost_Development
